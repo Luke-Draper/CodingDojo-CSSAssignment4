@@ -15,15 +15,21 @@
 .container-center {
 	margin: 0 auto;
 	width: 960px;
-	background-color: lightblue;
 }
 header {
 	height: 80px;
-	background-color: lightcoral;
+	background-color: #EEE;
+	background-image: linear-gradient(to right, #EEE, white, #EEE);
+}
+article {
+	padding: 20px;
+	background-color: plum;
+	background-image: radial-gradient(rgb(180, 180, 180), rgb(87, 68, 78), rgb(36, 20, 25));
 }
 .about-section {
 	height: 300px;
 	background-color: lightcyan;
+	margin-bottom: 20px;
 }
 .project-section {
 	height: 400px;
@@ -31,5 +37,6 @@ header {
 }
 footer {
 	height: 80px;
-	background-color: lightgreen;
+	background-color: #EEE;
+	background-image: linear-gradient(to right, #EEE, white, #EEE);
 }
