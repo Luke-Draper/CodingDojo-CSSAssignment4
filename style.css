@@ -9,3 +9,22 @@
 	padding: 0;
 	margin: 0;
 }
+* {
+	border: 2px dotted red;
+}
+.container-center {
+	margin: 0 auto;
+	width: 960px;
+}
+header {
+	height: 80px;
+}
+.about-section {
+	height: 300px;
+}
+.project-section {
+	height: 400px;
+}
+footer {
+	height: 80px;
+}
